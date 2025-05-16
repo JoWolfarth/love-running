@@ -1,3 +1,6 @@
+/*Google fonts import*/
+@import url(<style>@importurl("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap");</style>);
+
 /* Asterix wildcard selector to override default styles added by browser */
 * {
     margin: 0;
