@@ -18,9 +18,15 @@ body {
     font-family: lato sans-serif;
 }
 
+h1 {
+    font-family: "oswald", sans-serif;
+}
+
 /*Header*/
 header {
     background-color: lightcoral;
+}
+h1 {
 }
 
 /*Main content*/
