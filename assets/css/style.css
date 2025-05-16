@@ -1,5 +1,5 @@
 /*Google fonts import*/
-@import url(<style>@importurl("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap");</style>);
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald&display=swap");
 
 /* Asterix wildcard selector to override default styles added by browser */
 * {
@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
+    font-family: lato sans-serif;
 }
 
 /*Header*/
