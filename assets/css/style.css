@@ -28,6 +28,9 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
 /*Header*/
 header {
     background-color: #ffffff;
@@ -114,7 +117,7 @@ main {
     color: #ffffff;
 }
 
-/*benefits section*/
+/*Reasons section*/
 
 #reasons {
     width: 90%;
@@ -156,6 +159,31 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Meet up section*/
+#times  {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    /* Handles responsiveness  without media queries*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /*This prevents wrap on screens less than 400px. Each div will expand to fill the available space*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*creates a grid of meet up times*/
+    border: 2px solid #ffffff;
+}
+
+#times h3 {
+    /*overrides the heading color from general styles*/
+    color: #ffffff;
 }
 
 /*Footer*/
