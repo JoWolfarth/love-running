@@ -303,7 +303,7 @@ main {
     }
     #signup-form {
         max-width: 400px;
-        position: absolute;
+        position: fixed;
         left: 10%;
         top: 150px;
     }
@@ -354,8 +354,8 @@ main {
         columns: 3;
     }
     
-    
-        /*larger devices (laptops and desktops, 992px or higher)*/
+
+    /*larger devices (laptops and desktops, 992px or higher)*/
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
