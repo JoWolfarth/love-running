@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     /*Generic project styles*/
     color: #3a3a3a;
-    font-family: lato sans-serif;
+    font-family: lato, sans-serif;
 }
 
 h1,
@@ -306,7 +306,7 @@ main {
         position: fixed;
         left: 10%;
         top: 150px;
-    }
+        }
 
     .text-input:hover {
         border-color: #f16c6b;
